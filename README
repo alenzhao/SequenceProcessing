@@ -1,0 +1,4 @@
+A tool to process DNA Sequence files produced by Sequencers like the Roche/454 Titanium FLX.
+
+The settings are configurable via a XML file.
+
