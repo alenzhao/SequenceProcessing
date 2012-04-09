@@ -2,3 +2,25 @@ A tool to process DNA Sequence files produced by Sequencers like the Roche/454 T
 
 The settings are configurable via a XML file.
 
+Possible operations:
+
+- load FASTA+QUAL files
+- load files containing MID and Primer sequences for sorting
+- allow "fuzzy" matching of MIDs and Primers with user-defined number of allowed mismatches
+- filter
+  - min. Sequence length
+  - max. Number of Ns
+  - average Quality
+  - after-sort:
+    - single MID
+    - single Primer
+- trimming:
+  - quality
+  - trim off MID and Primer
+  - fixed points
+  - at motif
+- output
+  - all in a single file, or files per MID, Primer, or MID-Primer combination
+  - compression as zip, tar.gz and tar.bz
+  
+- other things that might come up…
