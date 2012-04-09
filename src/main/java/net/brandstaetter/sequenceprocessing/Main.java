@@ -173,7 +173,8 @@ public class Main {
         final SchemaFactory factory = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
         Schema schema;
         if (isInternetReachable()) {
-            final URL url = new URL("https://raw.github.com/brandstaetter/SequenceProcessing/master/config.xsd");
+            final URL url = new URL(
+                    "https://raw.github.com/brandstaetter/SequenceProcessing/master/src/main/resources/config.xsd");
             url.getContent();
             schema = factory.newSchema(url);
         } else {
