@@ -1,5 +1,4 @@
 language: java
-  - source 7
 jdk:
   - openjdk7
   - oraclejdk7
